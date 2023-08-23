@@ -8,3 +8,9 @@
 
 ## Source
 - The rust implementation is inspired from jonhoo's [repository](https://github.com/jonhoo/roget/tree/main) and [livestream](https://www.youtube.com/watch?v=doFowk4xj7Q).
+
+
+## Data Wrangling 
+- Print compresses file: gzcat 1-00000-of-00024.gz | head
+- File Format:
+`token`_`token_type`    `year`, `number_of_distant_token_in_year`, `number_of_books`
